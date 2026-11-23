@@ -1,0 +1,13 @@
+{
+  "state": "客户表示收到的显示器破损，希望更换。",
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "哪个团队应该处理这个请求？",
+      "criteria": {
+        "returns": "退换货和运输损坏",
+        "billing": "付款和发票"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jev-duo-agent",
+  "name": "Jev Duo Agent",
+  "description": "Jev and System Duo with an isolated conversation archive",
+  "cliCommands": [
+    {
+      "name": "jev",
+      "description": "Run the Jev Duo agent",
+      "hasSubcommands": true
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

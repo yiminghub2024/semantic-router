@@ -1,0 +1,24 @@
+{
+  "name": "jev-duo-agent",
+  "version": "0.1.0",
+  "description": "Capability-aware System One routing and isolated conversation history for OpenClaw",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "bin": {
+    "jev-duo": "./cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "dependencies": {
+    "commander": "14.0.3"
+  }
+}
